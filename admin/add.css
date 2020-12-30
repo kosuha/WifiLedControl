@@ -1,0 +1,50 @@
+* { box-sizing: border-box;}
+a { text-decoration: none;}
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
+
+body {
+    padding-top: 45vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#pwform {
+    flex-grow: 0;
+    display: flex;
+}
+
+.empty {
+    flex-grow: 1;
+}
+
+#id_div {
+    padding-bottom: 1rem;
+    width: 10rem;
+}
+
+#pw_div {
+    padding-bottom: 1rem;
+    width: 10rem;
+}
+
+#pwagain_div {
+    padding-bottom: 1rem;
+    width: 10rem;
+}
+
+#submit_div {
+    padding-bottom: 1rem;
+    width: 10rem;
+}
+
+#access_div {
+    padding-bottom: 1rem;
+    width: 10rem;
+}
